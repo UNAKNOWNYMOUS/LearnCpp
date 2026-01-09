@@ -14,7 +14,7 @@ tags: []
 ### For Visual Studio users
 ### For Code::Blocks users
 ### For gcc and Clang users
-- Add `ggdb` to the command line for debug builds and `-O2 -DNDEBUG` for release builds.
+- Add `-ggdb` to the command line for debug builds and `-O2 -DNDEBUG` for release builds.
 - `-O0` `-O2` `-O3` are used to optimization.
 ### For VS Code users
 ## Modifying build configurations
