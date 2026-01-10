@@ -1,0 +1,5 @@
+g++ -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror
+For Debug Builds:
+g++ -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -ggdb
+For Release Builds:
+g++ -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -O2 -DNDEBUG
