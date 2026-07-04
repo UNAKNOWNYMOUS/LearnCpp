@@ -35,3 +35,10 @@ tags: []
 ## Introduction to low-level languages
 ## Introduction to high-level languages
 - A compiler is a program (or collection of programs) that reads the source code of one language (usually a high-level language) and translates it into another language (usually a low-level language). For example, a C++ compiler translates C++ source code into machine code.
+- "Optional reading": Most C++ compilers can also be configured to generate  assembly code. This is useful when a programmer wants to see what specific instructions the compiler is generating for a section of the program.
+- An interpreter is a program that directly executes the instructions in the source code without requiring them to be compiled first. Interpreters tend to be more flexible than compilers, but are less efficient when running programs because the interpreting process needs to be done every time the program is run. This also means the interpreter must be installed on every machine where an interpreted program will be run.
+- Optional reading: Another advantage of compiled programs is that distributing a compiled program does not require distributing the source code. In a non-open-source environment, this is important for intellectual property (IP) protection purposes.
+## The benefits of high-level languages
+- High-level languages are named as such because they provide a high level abstraction from the underlying architecture.
+- High-level languages allow programmers to write programs without knowing much about the platform it will be run on. This not only makes programs easier to write, it also makes them significantly more portable. If we're careful, we can write a single C++ that will compile on every platform that has a C++ compiler! A program that is designed to run on multiple platforms is said to be cross-platform.
+- 
