@@ -41,4 +41,8 @@ tags: []
 ## The benefits of high-level languages
 - High-level languages are named as such because they provide a high level abstraction from the underlying architecture.
 - High-level languages allow programmers to write programs without knowing much about the platform it will be run on. This not only makes programs easier to write, it also makes them significantly more portable. If we're careful, we can write a single C++ that will compile on every platform that has a C++ compiler! A program that is designed to run on multiple platforms is said to be cross-platform.
-- 
+- For advanced readers: None
+- Nomenclature: None
+- Author's note: None
+## Rules, Best practices, and warnings
+- As we proceed through these tutorials, we'll highlight many important points under the following three categories: "Rules", "Best practice", and "Warning".
